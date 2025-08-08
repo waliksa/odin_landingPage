@@ -1,0 +1,30 @@
+body{
+   display: flex;
+   flex-direction: column;
+}
+
+/* Header section */
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    gap: 16px;
+}
+  
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+/*Hero section*/
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
