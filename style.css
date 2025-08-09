@@ -1,6 +1,7 @@
 body{
    display: flex;
    flex-direction: column;
+   margin: 0%;
 }
 
 /* Header section */
@@ -24,7 +25,23 @@ a{
 }
 
 /*Hero section*/
+.hero-section {
+    background-color: #1f2937;
+}
 .hero {
     display: flex;
     justify-content: space-evenly;
+}
+
+/* second section*/
+
+.second-section h1 {
+    text-align: center;
+}
+
+.second-section-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
