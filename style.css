@@ -80,6 +80,7 @@ a{
 .call-to-action {
     display: flex;
     flex: 1;
+    border-radius: 30px;
     align-items: center;
     justify-content: center;
     padding: 80px 200px 80px;
