@@ -68,3 +68,35 @@ a{
     font-weight: 900;
     color: #1F2937;
 }
+
+/*forth section*/
+.forth-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+}
+
+.call-to-action {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 200px 80px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    
+}
+
+.call-to-action .text {
+    margin-right: auto;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-color: white;
+    border-radius: 10px;
+    flex-shrink: 0;
+    padding: 8px 24px 8px;
+}
