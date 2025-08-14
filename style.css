@@ -2,6 +2,7 @@ body{
    display: flex;
    flex-direction: column;
    margin: 0%;
+   font-family: "Roboto";
 }
 
 /* Header section */
@@ -100,4 +101,14 @@ a{
     border-radius: 10px;
     flex-shrink: 0;
     padding: 8px 24px 8px;
+}
+
+/**/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 16px;
 }
